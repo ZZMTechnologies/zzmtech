@@ -42,7 +42,7 @@
     <!--end::Head-->
 
     <!--begin::Body-->
-	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-fixed aside-secondary-enabled">
+	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-fixed aside-secondary-enabled active-dark-mode">
 
 
         <div class="font-sans text-gray-900 antialiased">
