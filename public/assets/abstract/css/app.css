@@ -710,14 +710,14 @@ input {
 .breadcrum-area {
     background: var(--gradient-primary);
     padding: 200px 0 100px;
-    margin-top: -160px;
+    margin-top: -180px;
     position: relative;
     z-index: 1;
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrum-area {
-        margin-top: -120px;
+        margin-top: -140px;
     }
 }
 
