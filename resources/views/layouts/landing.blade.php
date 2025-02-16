@@ -38,6 +38,7 @@
         <link rel="stylesheet" href="/assets/abstract/css/custom.css">
 
         {{-- @livewireStyles --}}
+        @laravelPWA
     </head>
     <!--end::Head-->
 
