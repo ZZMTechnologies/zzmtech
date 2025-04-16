@@ -50,7 +50,7 @@
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="services-grid active p-20" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-47.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/digitalconsultancy" wire:navigate>Digital Consultancy</a></h5>
                                 <p class="mb-2">Boost your business with expert tech strategies and guidance.</p>
                                 <a href="/digitalconsultancy" wire:navigate class="more-btn">Find out more</a>
@@ -61,7 +61,7 @@
                         <div class="services-grid" style="padding: 20px;">
                          
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-46.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/web" wire:navigate>Web Development</a></h5>
                                 <p class="mb-2">Build high-quality, user-friendly websites tailored to your needs.</p>
                                 <a href="/web" wire:navigate class="more-btn">Find out more</a>
@@ -81,7 +81,7 @@
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-40.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/frontend" wire:navigate>Frontend Development</a></h5>
                                 <p class="mb-2">Craft engaging and responsive user interfaces for web apps.</p>
                                 <a href="/frontend" wire:navigate class="more-btn">Find out more</a>
@@ -91,7 +91,7 @@
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/api" wire:navigate>API Development</a></h5>
                                 <p class="mb-2">Design custom APIs for scalable and reliable solutions.</p>
                                 <a href="/api" wire:navigate class="more-btn">Find out more</a>
@@ -101,7 +101,7 @@
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-32.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/mobile" wire:navigate>Mobile Apps Development</a></h5>
                                 <p class="mb-2">Create top-notch mobile apps for seamless user experiences.</p>
                                 <a href="/mobile" wire:navigate class="more-btn">Find out more</a>
@@ -117,7 +117,7 @@
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/blockchain" wire:navigate>Blockchain Technology</a></h5>
                                 <p class="mb-2">Implement secure blockchain solutions for transparency and efficiency.</p>
                                 <a href="/blockchain" wire:navigate class="more-btn">Find out more</a>
@@ -127,7 +127,7 @@
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-42.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/cloudcomputing" wire:navigate>Cloud Computing</a></h5>
                                 <p class="mb-2">Leverage cloud platforms (AWS, Azure, Google Cloud) for scalable infrastructure.</p>
                                 <a href="/cloudcomputing" wire:navigate class="more-btn">Find out more</a>
@@ -137,7 +137,7 @@
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/cybersecurity" wire:navigate>Cybersecurity</a></h5>
                                 <p class="mb-2">Protect your data and systems with comprehensive security solutions.</p>
                                 <a href="/cybersecurity" wire:navigate class="more-btn">Find out more</a>
@@ -147,7 +147,7 @@
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/devsecops" wire:navigate>DevSecOps</a></h5>
                                 <p class="mb-2">Integrate security throughout your software development lifecycle.</p>
                                 <a href="/devsecops" wire:navigate class="more-btn">Find out more</a>
@@ -167,7 +167,7 @@
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-45.png" alt="icon">
                                 <h5 class="title mb-2"> <a href="/iot" wire:navigate>Internet of Things (IoT)</a></h5>
                                 <p class="mb-2">Connect devices and systems for innovative IoT solutions.</p>
                                 <a href="/iot" wire:navigate class="more-btn">Find out more</a>
