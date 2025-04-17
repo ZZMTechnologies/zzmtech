@@ -44,7 +44,7 @@
                 <div class="section-heading ">
                     <span class="subtitle">Services we can help you with</span>
                     <h2 class="title text-white">General Services</h2>
-                    <p class="text-white opacity-50 w-100">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
+                    <p class="text-white opacity-50 w-100">"Your vision, our expertise: together we build exceptional software that drives your success."</p>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -111,7 +111,7 @@
                 </div>
                 <div class="section-heading ">
                     <h2 class="title text-white">Tech Enablers</h2>
-                    <p class="text-white opacity-50 w-100">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
+                    <p class="text-white opacity-50 w-100">"Enabling your success by providing the building blocks for digital transformation."</p>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
@@ -268,8 +268,8 @@
                                         </div>
                                         <div class="single-counterup">
                                             <h2 class="count-number">
-                                                <span class="number count" data-count="5">5++</span>
-                                                <span class="symbol">y</span>
+                                                <span class="number count" data-count="10">10++</span>
+                                                <span class="symbol">+</span>
                                             </h2>
                                             <span class="counter-title"><b>Years of Experience</b> <br>Average years of experience of our development team</span>
                                         </div>
@@ -351,9 +351,9 @@
         <section class="section section-padding bg-color-dark">
             <div class="container">
                 <div class="section-heading heading-light">
-                    <span class="subtitle">Featured Case Study</span>
-                    <h2 class="title">Design startup movement</h2>
-                    <p>"The design startup movement is a catalyst for change, where creativity and technology converge to solve problems, drive innovation, and change the world for the better." </p>
+                    <span class="subtitle">Fueling the future</span>
+                    <h2 class="title">From Vision To Reality</h2>
+                    <p>"Benefit from our years of operation, a portfolio of successfully delivered projects, and the assurance of working with our credentialed, in-house experts." </p>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -362,7 +362,7 @@
                                 <img src="assets/abstract/media/icon/icon-7.png" alt="Apple">
                             </div>
                             <div class="h2">
-                                <span class="number count" data-count="3">3</span>
+                                <span class="number count" data-count="2">2</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Years of operation</h6>
@@ -386,7 +386,7 @@
                                 <img src="assets/abstract/media/icon/icon-9.png" alt="Apple">
                             </div>
                             <div class="h2">
-                                <span class="number count" data-count="5">5</span>
+                                <span class="number count" data-count="3">3</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Specialist</h6>
@@ -398,7 +398,7 @@
                                 <img src="assets/abstract/media/icon/apple.png" alt="Apple">
                             </div>
                             <div class="h2">
-                                <span class="number count" data-count="8">8</span>
+                                <span class="number count" data-count="6">6</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Credentials</h6>

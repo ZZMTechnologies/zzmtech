@@ -174,7 +174,7 @@
                                                      <li><strong class="ms-2  text-primary">POS</strong></li>
                                                      <li><a href="javascript:;"><b>Z-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
                                                      <li><hr class="my-2"></li> --}}
-                                                     <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li>
+                                                     {{-- <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li> --}}
                                                  </ul>
                                              </li>
                                              <!-- <li><a href="/blog">Blogs</a></li> -->
