@@ -82,7 +82,7 @@
                                     <h2 class="title">Digital Transformation</h2>
                                     <span class="subtitle">Reimagining business processes, empowering employees, and engaging customers</span>
                             </div>
-                            <p>Digital transformation is no longer a mere trendy term in the contemporary business environment; rather, it has evolved into a critical strategic necessity for organizations that wish to prosper in the era of digitalization. KetupArt Studio specializes in providing guidance to businesses as they navigate this process of transformation by implementing innovative strategies and state-of-the-art technologies to stimulate expansion, optimize operations, and enhance client contentment.</p>
+                            <p>Digital transformation is no longer a mere trendy term in the contemporary business environment; rather, it has evolved into a critical strategic necessity for organizations that wish to prosper in the era of digitalization. ZZMTech specializes in providing guidance to businesses as they navigate this process of transformation by implementing innovative strategies and state-of-the-art technologies to stimulate expansion, optimize operations, and enhance client contentment.</p>
                             <p>Integrating digital technologies into every aspect of business operations constitutes digital transformation, which profoundly alters the way in which organizations function and provide value to their clients. Remaining agile in a digital-first world requires more than simply implementing new tools or systems; it also entails reimagining business processes, empowering employees, and engaging customers.</p>
                         </div>
                         <div class="col-12 col-lg-7">
@@ -235,7 +235,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p class="text-center opacity-50">"Whether you're embarking on a digital transformation journey, seeking to enhance customer experiences, or looking to leverage data for strategic insights, KetupArt Studio is your trusted partner in digital consultancy. Contact us today to explore how we can unlock new opportunities and drive your business forward in the digital era."</p>
+                            <p class="text-center opacity-50">"Whether you're embarking on a digital transformation journey, seeking to enhance customer experiences, or looking to leverage data for strategic insights, ZZMTech is your trusted partner in digital consultancy. Contact us today to explore how we can unlock new opportunities and drive your business forward in the digital era."</p>
                         </div>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
                     <div class="section-heading">
                         <span class="subtitle">Service</span>
                         <h2 class="title">Customer Experience</h2>
-                        <p class="w-100 pb-0">"At KetupArt Studio, we enhance customer experience through personalized interactions, tailoring our offerings to meet individual needs and preferences. Our omni-channel engagement ensures a seamless experience across various platforms, from websites to mobile apps, providing consistency and convenience. User-centric design is at the core of our approach, creating intuitive interfaces that enhance usability and satisfaction. Our responsive customer support team is dedicated to addressing inquiries promptly, ensuring a positive customer service experience. Proactive communication keeps customers informed and engaged, while feedback mechanisms gather valuable insights to drive continuous improvement. This commitment to enhancing customer experience has led to increased loyalty and satisfaction among our customers, contributing to our success in the digital landscape."</p>
+                        <p class="w-100 pb-0">"At ZZMTech, we enhance customer experience through personalized interactions, tailoring our offerings to meet individual needs and preferences. Our omni-channel engagement ensures a seamless experience across various platforms, from websites to mobile apps, providing consistency and convenience. User-centric design is at the core of our approach, creating intuitive interfaces that enhance usability and satisfaction. Our responsive customer support team is dedicated to addressing inquiries promptly, ensuring a positive customer service experience. Proactive communication keeps customers informed and engaged, while feedback mechanisms gather valuable insights to drive continuous improvement. This commitment to enhancing customer experience has led to increased loyalty and satisfaction among our customers, contributing to our success in the digital landscape."</p>
                     </div>
                 </div>
             </div>

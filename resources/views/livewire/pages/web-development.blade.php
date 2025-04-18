@@ -81,9 +81,9 @@
                                     <h2 class="title">Our Capabilities</h2>
                                     <span class="subtitle">Your Vision, Our Expertise: Transforming Ideas into Digital Reality</span>
                             </div>
-                            <p>As organizations deal with the increasing complexity of the digital environment, KetupArt Studio stands ready to provide support. The convergence of AI, the proliferation of mobility solutions, and the emergence of cloud-based applications are compelling organizations across industries to pursue accelerated, scalable application development solutions that are tailored to their specific requirements.</p>
+                            <p>As organizations deal with the increasing complexity of the digital environment, ZZMTech stands ready to provide support. The convergence of AI, the proliferation of mobility solutions, and the emergence of cloud-based applications are compelling organizations across industries to pursue accelerated, scalable application development solutions that are tailored to their specific requirements.</p>
 
-                            <p>At KetupArt Studio, we specialize in providing adaptable and individualized solutions to assist organizations in the efficient management of their application portfolios. We enable our clients to achieve significant improvements by utilizing a blend of our validated implementation strategies and benchmarks in the industry.</p>
+                            <p>At ZZMTech, we specialize in providing adaptable and individualized solutions to assist organizations in the efficient management of their application portfolios. We enable our clients to achieve significant improvements by utilizing a blend of our validated implementation strategies and benchmarks in the industry.</p>
 
                             <p>In addition to cost optimization, our Application Development and Maintenance Services prioritize the creation of genuine value, the improvement of customer experiences, and the promotion of innovation.</p>
 
@@ -261,7 +261,7 @@
                     <div class="section-heading">
                         <span class="subtitle">Service</span>
                         <h2 class="title">Ecosystem</h2>
-                        <p class="w-100">KetupArt Studio advises, curates and orchestrates technologies from market-leading partners and innovators. Together, we provide scalable, fully integrated cloud solutions that deliver next-level results.</p>
+                        <p class="w-100">ZZMTech advises, curates and orchestrates technologies from market-leading partners and innovators. Together, we provide scalable, fully integrated cloud solutions that deliver next-level results.</p>
                     </div>
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="h-100" data-sal="slide-up" data-sal-duration="500">

@@ -119,7 +119,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p class="text-center opacity-50">"Unlock the power of blockchain technology with KetupArt Studio, where innovation meets security, transparency, and efficiency to revolutionize your business operations and drive sustainable growth in the digital era."</p>
+                            <p class="text-center opacity-50">"Unlock the power of blockchain technology with ZZMTech, where innovation meets security, transparency, and efficiency to revolutionize your business operations and drive sustainable growth in the digital era."</p>
                         </div>
                     </div>
                 </div>

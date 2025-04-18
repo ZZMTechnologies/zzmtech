@@ -267,7 +267,7 @@
                     <div class="section-heading">
                         <span class="subtitle">Service</span>
                         <h2 class="title">Ecosystem</h2>
-                        <p class="w-100">KetupArt Studio advises, curates and orchestrates technologies from market-leading partners and innovators. Together, we provide scalable, fully integrated cloud solutions that deliver next-level results.</p>
+                        <p class="w-100">ZZMTech advises, curates and orchestrates technologies from market-leading partners and innovators. Together, we provide scalable, fully integrated cloud solutions that deliver next-level results.</p>
                     </div>
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="h-100" data-sal="slide-up" data-sal-duration="500">
