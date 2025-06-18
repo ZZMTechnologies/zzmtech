@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <div class="team-details-thumb">
-                                    <img class="paralax-image" src="assets/abstract/media/banner/webdevelopment.gif" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
+                                    <img class="paralax-image" src="assets/abstract/media/banner/artificial-intelligence.png" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                                 </div>
                             </div>
                         </div>
