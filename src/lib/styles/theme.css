@@ -1,0 +1,14 @@
+:root {
+  --font-sans: 'Manrope', 'Segoe UI', sans-serif;
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+
+  --color-bg: #f6f8fc;
+  --color-bg-accent: rgba(10, 102, 194, 0.12);
+  --color-bg-accent-2: rgba(29, 78, 216, 0.1);
+
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+
+  --color-primary: #0a66c2;
+  --color-border: #dbe2ea;
+}

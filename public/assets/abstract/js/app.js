@@ -46,7 +46,7 @@
         },
 
         contactForm: function() {
-            $('.axil-contact-form').on('submit', function(e) {
+            $('.axil-contact-form').off('submit.axilContact').on('submit.axilContact', function(e) {
                 e.preventDefault();
                 var _self = $(this);
                 var _selector = _self.closest('input,textarea');
@@ -81,14 +81,14 @@
 
         axilBackToTop: function() {
             var btn = $('#backto-top');
-            $(window).on('scroll', function() {
+            $(window).off('scroll.axilBackToTop').on('scroll.axilBackToTop', function() {
                 if ($(window).scrollTop() > 300) {
                     btn.addClass('show');
                 } else {
                     btn.removeClass('show');
                 }
             });
-            btn.on('click', function(e) {
+            btn.off('click.axilBackToTop').on('click.axilBackToTop', function(e) {
                 e.preventDefault();
                 $('html, body').animate({
                     scrollTop: 0
@@ -111,8 +111,7 @@
         },
 
         stickyHeaderMenu: function() {
-
-            $(window).on('scroll', function() {
+            $(window).off('scroll.axilStickyHeader').on('scroll.axilStickyHeader', function() {
                 // Sticky Class Add
                 if ($('body').hasClass('sticky-header')) {
                     var stickyPlaceHolder = $('#axil-sticky-placeholder'),
@@ -132,8 +131,7 @@
         },
 
         mobileMenuActivation: function(e) {
-            
-            $('.menu-item-has-children > a').on('click', function(e) {
+            $('.menu-item-has-children > a').off('click.axilMobileMenu').on('click.axilMobileMenu', function(e) {
                 
                 var targetParent = $(this).parents('.mainmenu-nav'),
                     target = $(this).siblings('.axil-submenu'),
@@ -157,13 +155,13 @@
                 } else {
                     $('body').addClass('mobilemenu-active');
                     $('#mobilemenu-popup').addClass('offcanvas');
-                    $('.menu-item-has-children > a').on('click', function(e) {
+                    $('.menu-item-has-children > a').off('click.axilMobileMenuPrevent').on('click.axilMobileMenuPrevent', function(e) {
                         e.preventDefault();
                     });
                 }
             }
 
-            $(window).on('resize', function() {
+            $(window).off('resize.axilMobileMenu').on('resize.axilMobileMenu', function() {
                 resizeClassAdd();
             });
             
@@ -180,7 +178,7 @@
         axilMasonary: function () {
             $('.axil-isotope-wrapper').imagesLoaded(function () {
                 // filter items on button click
-                $('.isotope-button').on('click', 'button', function () {
+                $('.isotope-button').off('click.axilIsotope', 'button').on('click.axilIsotope', 'button', function () {
                     var filterValue = $(this).attr('data-filter');
                     $grid.isotope({
                         filter: filterValue
@@ -200,7 +198,7 @@
                 });
             });
         
-            $('.isotope-button button').on('click', function (event) {
+            $('.isotope-button button').off('click.axilIsotopeButton').on('click.axilIsotopeButton', function (event) {
                 $(this).siblings('.is-checked').removeClass('is-checked');
                 $(this).addClass('is-checked');
                 event.preventDefault();
@@ -303,6 +301,9 @@
         },
 
         onePageNav: function () {
+            if (!$('#onepagenav').length || !$.fn.onePageNav) {
+                return;
+            }
             $('#onepagenav').onePageNav({
                 currentClass: 'current',
                 changeHash: false,
@@ -320,14 +321,14 @@
                 yearlyPrice = $('.yearly-pricing');
                
             
-            $(monthlySelectBtn).on('click', function() {
+            $(monthlySelectBtn).off('click.axilPricing').on('click.axilPricing', function() {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'block');
                 yearlyPrice.css('display', 'none');
 
             });
             
-            $(yearlySelectBtn).on('click', function() {
+            $(yearlySelectBtn).off('click.axilPricing').on('click.axilPricing', function() {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'none');
                 yearlyPrice.css('display', 'block');
@@ -364,7 +365,7 @@
                     $window = $(window),
                     totalDistance = $('.service-scroll-navigation-area').outerHeight() + distance;
 
-                $(window).on('scroll', function () {
+                $(window).off('scroll.axilOnePageTop').on('scroll.axilOnePageTop', function () {
                     if ( $window.scrollTop() >= distance ) {
                         fixedElem.css({
                             position: 'fixed',
@@ -507,10 +508,14 @@
         },
     }
 
+    window.axilReinit = function() {
+        axilInit.s();
+        axilInit.methods();
+    };
+
     setTimeout(() => {
-        axilInit.i();
-        console.log('loaded');
-      }, "500")
+        window.axilReinit();
+    }, 500);
 
 
 
