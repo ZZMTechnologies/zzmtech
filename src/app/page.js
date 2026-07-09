@@ -98,14 +98,14 @@ const featuredSlides = [
       'Unlock the full potential of your business with our customized and cutting-edge technology solutions, designed and developed by our talented team of experts to meet your unique needs and exceed your expectations.',
     counters: [
       {
-        value: '10',
+        count: 10,
         symbol: '',
         title: 'Certifications',
         desc: 'Number of relevant certifications held by our development team'
       },
       {
-        value: '10++',
-        symbol: '+',
+        count: 10,
+        symbol: '++',
         title: 'Years of Experience',
         desc: 'Average years of experience of our development team'
       }
@@ -118,13 +118,13 @@ const featuredSlides = [
       'Accelerate your path to success with our agile project environment, delivering flexible, responsive, and efficient solutions that adapt to your changing needs, driven by collaboration, transparency, and continuous improvement.',
     counters: [
       {
-        value: '30',
+        count: 30,
         symbol: '%',
         title: 'Time-to-Market',
         desc: 'Our agile approach helps deliver product 30% faster than traditional methods.'
       },
       {
-        value: '100',
+        count: 100,
         symbol: '%',
         title: 'Completion Rate',
         desc: 'Projects successfully completed on time and within budget'
@@ -150,10 +150,10 @@ const featuredSlides = [
 const featureThumbs = ['case-study-4.png', 'case-study-5.png', 'case-study-6.png'];
 
 const counters = [
-  { value: '2', symbol: '+', title: 'Years of operation', icon: 'icon-7.png' },
-  { value: '4', symbol: '+', title: 'Projects deliverd', icon: 'icon-8.png' },
-  { value: '3', symbol: '+', title: 'Specialist', icon: 'icon-9.png' },
-  { value: '6', symbol: '+', title: 'Credentials', icon: 'apple.png' }
+  { count: 2, symbol: '+', title: 'Years of operation', icon: 'icon-7.png' },
+  { count: 4, symbol: '+', title: 'Projects deliverd', icon: 'icon-8.png' },
+  { count: 3, symbol: '+', title: 'Specialist', icon: 'icon-9.png' },
+  { count: 6, symbol: '+', title: 'Credentials', icon: 'apple.png' }
 ];
 
 const slickMain = JSON.stringify({
@@ -373,7 +373,7 @@ export default function HomePage() {
                           {slide.counters.map((counter) => (
                             <div key={counter.title} className="single-counterup">
                               <h2 className="count-number">
-                                <span className="number count">{counter.value}</span>
+                                <span className="number count" data-count={counter.count}>0</span>
                                 <span className="symbol">{counter.symbol}</span>
                               </h2>
                               <span className="counter-title">
@@ -422,7 +422,7 @@ export default function HomePage() {
                     <img src={`/assets/abstract/media/icon/${counter.icon}`} alt="icon" />
                   </div>
                   <div className="h2">
-                    <span className="number count">{counter.value}</span>
+                    <span className="number count" data-count={counter.count}>0</span>
                     <span className="symbol">{counter.symbol}</span>
                   </div>
                   <h6 className="title">{counter.title}</h6>

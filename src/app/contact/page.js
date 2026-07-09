@@ -12,7 +12,7 @@ export default function ContactPage() {
               <div className="contact-info mb--100 mb_md--30">
                 <h4 className="title">Phone / Whatsapp</h4>
                 <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
-                <h4 className="phone-number"><a href="tel:+60172120078">+60172120078</a></h4>
+                <h4 className="phone-number"><a href="tel:+601162114073">+601162114073</a></h4>
               </div>
               <div className="contact-info mb--30">
                 <h4 className="title">Email</h4>

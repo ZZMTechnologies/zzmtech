@@ -236,7 +236,23 @@
         },
 
         axilSlickActivation: function(e) {
-            $('.slick-slider').slick();
+            if (!$.fn.slick) {
+                return;
+            }
+
+            $('.slick-slider').each(function() {
+                var $slider = $(this);
+
+                if ($slider.hasClass('slick-initialized')) {
+                    return;
+                }
+
+                if (!$slider.children().length) {
+                    return;
+                }
+
+                $slider.slick();
+            });
         },
 
         magnificPopupActivation: function() {
