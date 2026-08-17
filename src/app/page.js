@@ -39,33 +39,33 @@ const generalServices = [
 ];
 
 const techEnablers = [
-  {
-    title: 'Blockchain Technology',
-    href: '/blockchain/',
-    description: 'Implement secure blockchain solutions for transparency and efficiency.',
-    icon: 'icon-28.png',
-    colClass: 'col-xl-3 col-md-6'
-  },
+  // {
+  //   title: 'Blockchain Technology',
+  //   href: '/blockchain/',
+  //   description: 'Implement secure blockchain solutions for transparency and efficiency.',
+  //   icon: 'icon-28.png',
+  //   colClass: 'col-xl-3 col-md-6'
+  // },
   {
     title: 'Cloud Computing',
     href: '/cloudcomputing/',
     description: 'Leverage cloud platforms (AWS, Azure, Google Cloud) for scalable infrastructure.',
     icon: 'icon-42.png',
-    colClass: 'col-xl-3 col-md-6'
+    colClass: 'col-xl-4 col-md-6'
   },
   {
     title: 'Cybersecurity',
     href: '/cybersecurity/',
     description: 'Protect your data and systems with comprehensive security solutions.',
     icon: 'icon-39.png',
-    colClass: 'col-xl-3 col-md-6'
+    colClass: 'col-xl-4 col-md-6'
   },
   {
     title: 'DevSecOps',
     href: '/devsecops/',
     description: 'Integrate security throughout your software development lifecycle.',
     icon: 'icon-36.png',
-    colClass: 'col-xl-3 col-md-6'
+    colClass: 'col-xl-4 col-md-6'
   },
   {
     title: 'Artificial Intelligence',

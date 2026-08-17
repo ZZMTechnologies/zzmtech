@@ -193,9 +193,9 @@ export default function RootLayout({ children }) {
                             <li>
                               <strong className="ms-2 text-primary">Tech Enabler</strong>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link href="/blockchain/">Blockchain Technology</Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link href="/cloudcomputing/">Cloud Computing</Link>
                             </li>
@@ -236,10 +236,10 @@ export default function RootLayout({ children }) {
                         <li className="menu-item-has-children">
                           <a href="#">Products</a>
                           <ul className="axil-submenu">
-                            <li>
+                            {/* <li>
                               <strong className="ms-2 text-primary">Education</strong>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                               <a href="#">
                                 <b>Z-Learn</b> - ELearning Management System
                               </a>
@@ -253,13 +253,18 @@ export default function RootLayout({ children }) {
                               <a href="#">
                                 <b>Z-Assignment</b> - ELearning Management System
                               </a>
-                            </li>
+                            </li> */}
                             <li>
                               <a href="#">
-                                <b>Z-Certificate</b> - Certificate Management System
+                                <b>Z-Career</b> - Career Toolkit
                               </a>
                             </li>
                             <li>
+                              <a href="#">
+                                <b>Z-Certificate</b> - Certificate Maker
+                              </a>
+                            </li>
+                            {/* <li>
                               <hr className="my-2" />
                             </li>
                             <li>
@@ -291,7 +296,7 @@ export default function RootLayout({ children }) {
                               <a href="#">
                                 <b>Z-HSE</b> - Health, Safety & Environment System
                               </a>
-                            </li>
+                            </li> */}
                           </ul>
                         </li>
                         <li>
@@ -455,7 +460,7 @@ export default function RootLayout({ children }) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      {/* <div className="col-sm-4">
                         <div className="footer-widget">
                           <h6 className="widget-title">Products</h6>
                           <div className="footer-menu-link">
@@ -491,7 +496,7 @@ export default function RootLayout({ children }) {
                             </ul>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
