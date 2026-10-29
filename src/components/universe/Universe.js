@@ -236,7 +236,7 @@ export default function Universe() {
         ref={panelRef}
         tabIndex={-1}
         className={styles.panel}
-        style={{ '--c': panelSection.color }}
+        style={{ '--accent': panelSection.color }}
         aria-hidden={!active}
         aria-labelledby="panel-title"
         inert={active ? undefined : ''}
