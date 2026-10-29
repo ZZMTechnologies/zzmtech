@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { HERO, SECTIONS, SERVICES, CLIENTS } from '@/lib/universe-content';
+import { HERO, SECTIONS, SERVICES, CLIENTS, CONTACT } from '@/lib/universe-content';
 import { createUniverse } from './createUniverse';
 import { SectionPanel } from './panels';
 import styles from './universe.module.css';
@@ -231,6 +231,10 @@ export default function Universe() {
           </div>
         )}
       </section>
+
+      <footer className={styles.legal}>
+        © {new Date().getFullYear()} ZZM Technologies · {CONTACT.registration}
+      </footer>
 
       <aside
         ref={panelRef}

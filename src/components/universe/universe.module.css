@@ -338,7 +338,7 @@
 .hero {
   position: absolute;
   left: 48px;
-  bottom: 44px;
+  bottom: 56px;
   z-index: 10;
   max-width: 560px;
   pointer-events: none;
@@ -488,6 +488,18 @@
 .flatGrid small {
   font-weight: 400;
   color: var(--muted);
+}
+
+.legal {
+  position: absolute;
+  left: 48px;
+  bottom: 16px;
+  z-index: 10;
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  pointer-events: none;
 }
 
 /* ---------- panel ---------- */
@@ -1325,7 +1337,14 @@
   .hero {
     left: 16px;
     right: 16px;
-    bottom: 20px;
+    bottom: 40px;
+  }
+
+  .legal {
+    left: 16px;
+    right: 16px;
+    bottom: 12px;
+    font-size: 10px;
   }
 
   .heroText {
