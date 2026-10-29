@@ -1,12 +1,14 @@
-# ZZMTech Next.js Scaffold
+# ZZMTech Website
 
-This directory contains a clean Next.js starter shell prepared for static hosting on AWS S3.
+A single-page, interactive 3D company website built with Next.js (App Router) and three.js, exported as static files.
 
-## Included
-- App Router structure (`app/`)
-- Shared layout (`Header`, `Footer`)
-- Global CSS and theme tokens
-- Static export configuration (`output: 'export'`)
+## Structure
+- `src/app/page.js` – the 3D home page (`/`). Sections open as panels and can be deep-linked: `/#about`, `/#services`, `/#process`, `/#team`, `/#clients`, `/#contact`.
+- `src/components/universe/` – the three.js scene (`createUniverse.js`), page UI (`Universe.js`, `panels.js`, `icons.js`) and styles.
+- `src/lib/universe-content.js` – all page text (services, process, team, clients, contact). Edit content here.
+- `src/app/[legacy]/` – forwards old URLs (e.g. `/web/`, `/contact/`) to the matching panel on `/`.
+- `archieve/nextjs-classic/` – the previous multi-page Next.js site, kept for reference (not built).
+- `archieve/` (root) – the original Laravel site, kept for reference.
 
 ## Run locally
 ```bash
@@ -20,9 +22,6 @@ npm run build
 ```
 
 Then deploy the generated `out/` directory to S3 static website hosting.
-
-## Notes
-No Laravel/Livewire pages have been converted yet.
 
 ## Docker (Immutable Image)
 This project includes:
